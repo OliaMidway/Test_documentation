@@ -1,0 +1,51 @@
+#,Severity,Environment,Title,Steps,Expected Result,Actual Result,Link,License,"Role (unregistered, unauthorized, authorized, All)"
+1,Major,MacOC Safari 18.4,"The page ""Learn"" remains in a loading state with scrolling disabled when SCB, ASIC, FCA, SCA license and any language (except AR) are selected","1. Navigate to NDA
+2. Select any license (eg. Albania)
+3. Select any language (except AR, eg. EN)
+4. Hover over section [Learn] in header menu
+5. Click the section heading [Learn]
+6. Scroll down to the block “Starting from the beginning?”
+7. Click the link [trading essentials guide]
+8. Click back button on navigation browser tab
+","The page ""Learn"" is active and scrolling functionality is available on the page","The page ""Learn"" is in a loading state and scrolling functionality is not available on the page",Link,"SCB, SCA, ASIC, FCA",All
+2,Major,MacOC Safari 18.4,"The menu item [Payments and withdrawals] is not displayed in the menu section [Pricing] in the footer when ASIC, SCA licence and EN language are selected","1. Navigate to NDA
+2. Select ASIC, SCA license (eg. ASIC)
+3. Select EN language
+4. Hover over menu section [Pricing]
+5. Pay attention to the menu item [Payments and withdrawals]
+6. Scroll down to the footer
+7. Pay attention to the menu title [Pricing]",The menu item [Payments and withdrawals] is displayed in the footer,The menu item [Payments and withdrawals] is not displayed in the footer,Link,"SCA, ASIC",All
+3,Minor,MacOC Safari 18.4,"Anchor link [Learn more about us] in the block ""Contents"" doesn't redirect to the block [Learn more about us] on the page ""Client funds"" when FCA licence and EN language is selected","1. Navigate to NDA
+2. Select FCA license
+3. Select EN language
+4. Hover over menu section [About]
+5. Click on menu item [Client funds]
+6. Scroll down to the block ""Contents""
+7. Click on anchor link [Learn more about us]",Anchor link [Learn more about us] redirects to the block [Learn more about us],Anchor link [Learn more about us] doesn't redirect to the block [Learn more about us],Link,FCA,All
+4,Trivial,iPhone Safari 18.5,"The border of tile ""TradingView and MT4"" is not adjusted to the content on the page “Spread betting” when FCA license and EN language is selected","1. Navigate to NDA
+2. Select FCA license
+3. Select EN language
+4. Tap the button [Burger menu]
+5. Tap menu section [Trading]
+6. Tap menu item [Spread betting]
+7. Scroll down to the tile ""TradingView and MT4""",The border of tile is adjusted to the content,The border of tile is not adjusted to the content,Link,FCA,All
+5,Trivial,MacOC Safari 18.4,"The icon of tile [تداول عقود الفروقات بالهامش] (Trade CFDs on margin) is not dispayed in the block ""ما هي ميّزات تداول عقود الفروقات على منصة"" (Why trade CFDs with NDA?) when SCA license and AR language is selected","1. Navigate to NDA
+2. Select SCA license (eg. SCA, United Arab Emirates)
+3. Select AR language
+4. Hover over menu section [طرق التداول] (Trading)
+5. Click the menu item [تداول العقود مقابل الفروقات] (CFD trading)
+5. Scroll down to the block ""ما هي ميّزات تداول عقود الفروقات على منصة"" (Why trade CFDs with NDA?) ","The icon of tile [تداول عقود الفروقات بالهامش] (Trade CFDs on margin) is dispayed in the block ""ما هي ميّزات تداول عقود الفروقات على منصة"" (Why trade CFDs with NDA?)","The icon of tile [تداول عقود الفروقات بالهامش] (Trade CFDs on margin) is not dispayed in the block ""ما هي ميّزات تداول عقود الفروقات على منصة"" (Why trade CFDs with NDA?)",Link,SCA,All
+6,Trivial,MacOC Safari 18.4,Images are not displayed in the block “Mobile AppWeb-PlattformTraden Sie CFDs auf Ihre Art” (Trade CFDs your way) in tiles [Web-Plattform] (Web platform) and [Mobile App] (Mobile app) when SCB license and any languages (except EN) are selected,"1. Navigate to NDA
+2. Select SCB license (eg. Albania)
+3. Select any language except English (eg. DE)
+4. Hover over the menu section [Trading] (Trading)
+5. Click the menu item [CFD-trading] (CFD-trading)
+6. Scroll down to the block “Mobile AppWeb-PlattformTraden Sie CFDs auf Ihre Art” (Trade CFDs your way)",Images are displayed,Images are not displayed,Link,SCB,All
+7,Trivial,MacOC Safari 18.4,"The button [Google] is displayed with a delay and is animated from below in the login and sign-up forms when SCB, ASIC, FCS, or SCA license and any languages are selected","1. Navigate to NDA
+2. Select any license (eg. ASIC)
+3. Select any language (eg. EN)
+4. Open login form
+5. Pay attention to the button [Google]
+6. Close login form
+7. Open sign up form
+5. Pay attention to the button [Google]",The button [Google] is displayed simultaneously with the other social login buttons,The button [Google] is displayed with a delay and is animated from below,Link,"SCA, SCB, ASIC, FCA","Unregistered, Unauthorized"
